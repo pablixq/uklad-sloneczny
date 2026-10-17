@@ -146,4 +146,11 @@ document.addEventListener("keydown", (e) => {
   location.hash = PLANETY[(idx + d + PLANETY.length) % PLANETY.length].id;
 });
 
+/* offline: service worker (wymaga https albo localhost) */
+if ("serviceWorker" in navigator && /^https?:$/.test(location.protocol)) {
+  window.addEventListener("load", () => {
+    navigator.serviceWorker.register("sw.js").catch(() => {});
+  });
+}
+
 render();
