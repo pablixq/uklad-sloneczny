@@ -5,6 +5,7 @@ const PLANETY = [
     id: "slonce",
     nazwa: "Słońce",
     typ: "Gwiazda — nasz silnik",
+    odkrycie: "Słońce odkryte",
     kolor: "#ffb648",
     lead: "Największy obiekt w całym Układzie Słonecznym. To od niego zaczyna się wszystko: światło, ciepło i życie na Ziemi.",
     ciekawostki: [
@@ -25,6 +26,7 @@ const PLANETY = [
     id: "merkury",
     nazwa: "Merkury",
     typ: "Planeta skalista",
+    odkrycie: "Nowa planeta odkryta",
     kolor: "#b9b3a7",
     lead: "Najmniejsza i najszybsza planeta. Pędzi wokół Słońca z prędkością 47 km/s — jakbyś leciał Warszawę–Gdańsk w 8 sekund.",
     ciekawostki: [
@@ -45,6 +47,7 @@ const PLANETY = [
     id: "wenus",
     nazwa: "Wenus",
     typ: "Planeta skalista",
+    odkrycie: "Nowa planeta odkryta",
     kolor: "#e8b46a",
     lead: "Najgorętsza planeta Układu Słonecznego — i to nie dlatego, że jest najbliżej Słońca. Winna jest jej atmosfera.",
     ciekawostki: [
@@ -65,6 +68,7 @@ const PLANETY = [
     id: "ziemia",
     nazwa: "Ziemia",
     typ: "Nasz dom",
+    odkrycie: "Nowa planeta odkryta",
     kolor: "#5aa9e6",
     lead: "Jedyna znana planeta z życiem. I jedyna, na której ktoś napisał tę stronę 😉",
     ciekawostki: [
@@ -85,6 +89,7 @@ const PLANETY = [
     id: "ksiezyc",
     nazwa: "Księżyc",
     typ: "Naturalny satelita Ziemi",
+    odkrycie: "Księżyc odkryty",
     kolor: "#c9c9d4",
     lead: "Nasz jedyny naturalny satelita. Widzimy go codziennie, a wciąż potrafi zaskoczyć.",
     ciekawostki: [
@@ -106,6 +111,7 @@ const PLANETY = [
     id: "mars",
     nazwa: "Mars",
     typ: "Planeta skalista",
+    odkrycie: "Nowa planeta odkryta",
     kolor: "#d1603d",
     lead: "Czerwona planeta. Kolor zawdzięcza rdzewiejącemu żelazu w gruncie — to dosłownie rdzawy pył.",
     ciekawostki: [
@@ -126,6 +132,7 @@ const PLANETY = [
     id: "jowisz",
     nazwa: "Jowisz",
     typ: "Gazowy olbrzym",
+    odkrycie: "Nowa planeta odkryta",
     kolor: "#d9a066",
     lead: "Największa planeta Układu Słonecznego. Gdyby był pusty w środku, zmieściłoby się w nim ponad 1300 Ziem.",
     ciekawostki: [
@@ -147,6 +154,7 @@ const PLANETY = [
     id: "saturn",
     nazwa: "Saturn",
     typ: "Gazowy olbrzym",
+    odkrycie: "Nowa planeta odkryta",
     kolor: "#e3cf9a",
     lead: "Planeta z najpiękniejszymi pierścieniami. Na zdjęciach wygląda jak dzieło sztuki, a w środku jest gazowym olbrzymem.",
     ciekawostki: [
@@ -168,6 +176,7 @@ const PLANETY = [
     id: "uran",
     nazwa: "Uran",
     typ: "Lodowy olbrzym",
+    odkrycie: "Nowa planeta odkryta",
     kolor: "#7fd6d6",
     lead: "Planeta, która „toczy się” na boku. Prawdopodobnie dawno temu uderzyło w nią coś bardzo dużego i przewróciło ją na bok.",
     ciekawostki: [
@@ -189,6 +198,7 @@ const PLANETY = [
     id: "neptun",
     nazwa: "Neptun",
     typ: "Lodowy olbrzym",
+    odkrycie: "Nowa planeta odkryta",
     kolor: "#4d6fd4",
     lead: "Najdalsza planeta od Słońca i najbardziej wietrzne miejsce w Układzie Słonecznym.",
     ciekawostki: [

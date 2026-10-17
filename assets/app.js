@@ -78,7 +78,7 @@ function renderPlaneta(p) {
           <p class="nadtytul">${p.typ}</p>
           <h1 class="nazwa">${p.nazwa}</h1>
           <p class="hero-lead">${p.lead}</p>
-          ${nowa ? `<div class="talia"><span class="zaleta">✨ Nowa planeta odkryta</span></div>` : ""}
+          ${nowa ? `<div class="talia"><span class="zaleta">✨ ${p.odkrycie || "Nowa planeta odkryta"}</span></div>` : ""}
         </div>
       </header>
 
