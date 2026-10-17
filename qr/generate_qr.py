@@ -71,18 +71,18 @@ def main() -> None:
 <html lang="pl"><head><meta charset="utf-8">
 <title>Kody QR — Układ Słoneczny</title>
 <style>
-  @page {{ size: A4; margin: 12mm; }}
+  @page {{ size: A4; margin: 9mm; }}
   * {{ box-sizing: border-box; }}
   body {{ font-family: -apple-system, "Segoe UI", Roboto, sans-serif; margin: 0; color: #0a0f1e; background: #fff; }}
   h1 {{ font-size: 20px; margin: 0 0 2px; letter-spacing: -.02em; }}
   .pod {{ font-size: 12px; color: #5b6579; margin: 0 0 10mm; }}
-  .siatka {{ display: grid; grid-template-columns: repeat(3, 1fr); gap: 8mm; }}
-  .karta {{ border: 1.5px dashed #b9c0d0; border-radius: 4mm; padding: 5mm 4mm 4mm; text-align: center; break-inside: avoid; }}
-  .symbol {{ font-size: 22px; color: #c0223a; line-height: 1; margin-bottom: 2mm; }}
-  img {{ width: 100%; max-width: 42mm; height: auto; display: block; margin: 0 auto; }}
-  .nazwa {{ font-size: 17px; font-weight: 700; margin-top: 3mm; letter-spacing: -.01em; }}
-  .instrukcja {{ font-size: 10.5px; color: #46506a; margin-top: 1mm; }}
-  .url {{ font-size: 7.5px; color: #8b93a5; margin-top: 2mm; word-break: break-all; }}
+  .siatka {{ display: grid; grid-template-columns: repeat(3, 1fr); gap: 5mm; }}
+  .karta {{ border: 1.5px dashed #b9c0d0; border-radius: 3mm; padding: 3mm 3mm 2.5mm; text-align: center; break-inside: avoid; }}
+  .symbol {{ font-size: 18px; color: #c0223a; line-height: 1; margin-bottom: 1.5mm; }}
+  img {{ width: 100%; max-width: 33mm; height: auto; display: block; margin: 0 auto; }}
+  .nazwa {{ font-size: 15px; font-weight: 700; margin-top: 2mm; letter-spacing: -.01em; }}
+  .instrukcja {{ font-size: 9.5px; color: #46506a; margin-top: .5mm; }}
+  .url {{ font-size: 6.5px; color: #8b93a5; margin-top: 1.2mm; word-break: break-all; }}
   @media print {{ .karta {{ border-color: #d6dbe6; }} }}
 </style></head>
 <body>
