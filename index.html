@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Układ Słoneczny — ciekawostki</title>
+<meta name="description" content="Ciekawostki o planetach Układu Słonecznego — zeskanuj kod QR przy planszy i odkryj swoją planetę.">
+<meta name="theme-color" content="#070b18">
+<link rel="stylesheet" href="assets/style.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🪐</text></svg>">
+</head>
+<body>
+<div class="gwiazdy" aria-hidden="true"></div>
+
+<header class="topbar">
+  <a class="logo" href="#">
+    <span class="logo-kropka"></span>
+    <span>Układ Słoneczny</span>
+  </a>
+  <div class="postep" id="postep" hidden>
+    <div class="postep-pasek"><span id="postep-fill"></span></div>
+    <span id="postep-label">Odkryto 0 z 10</span>
+  </div>
+</header>
+
+<main id="app"></main>
+
+<footer class="stopka">
+  <p>Zeskanuj kod QR przy planszy, żeby wejść na ciekawostki o planecie. Albo klikaj po kolei — jak w podróży kosmicznej 🚀</p>
+</footer>
+
+<script src="assets/dane.js"></script>
+<script src="assets/app.js"></script>
+</body>
+</html>
