@@ -1,5 +1,7 @@
 # Układ Słoneczny — strona z ciekawostkami + kody QR
 
+**Live:** https://pablixq.github.io/uklad-sloneczny/
+
 Interaktywna plansza dydaktyczna: dziecko rysuje Układ Słoneczny, przy każdej planecie
 przykleja kod QR, a kod prowadzi do strony z ciekawostkami o tej planecie.
 
